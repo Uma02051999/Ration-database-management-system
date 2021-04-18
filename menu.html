@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>welcome_page</title>
+</head>
+
+
+<style type="text/css">
+
+.drop_menu {
+
+background:glass;
+text-indent:80px;
+
+padding:5px;
+
+margin:5px;
+
+list-style-type:none;
+
+height:40px;
+
+
+}
+
+.drop_menu li { float:left; }
+
+.drop_menu li a {
+
+padding:12px 20px;
+
+display:block;
+
+color:gold;
+
+text-decoration:none;
+
+font:18px arial, verdana, sans-serif;
+
+border-right:120px white;
+
+}
+
+ 
+
+.drop_menu ul {
+
+position:absolute;
+
+left:-9999px;
+top:-9999px;
+
+list-style-type:none;
+
+}
+
+.drop_menu li:hover { position:relative; background:glass;  }
+
+.drop_menu li:hover ul {
+
+left:8px;
+
+top:45px;
+
+background:white;
+
+padding:0px;
+
+}
+
+ 
+
+.drop_menu li:hover ul li a {
+
+padding:5px;
+
+display:block;
+width:300px;
+
+text-indent:20px;
+
+background-color:grey;
+
+}
+
+.drop_menu li:hover ul li a:hover { background:white;  }
+
+
+</style>
+
+
+
+ 
+<body background="menu.jpg">
+<div class="drop">
+
+<ul class="drop_menu">
+
+<li><a href='home.html'>KNOW US</a></li>
+
+
+
+<li><a href='#'>REGISTRATION</a>
+<ul>
+
+<li><a href='cregister.html'>CONSUMER_REGISTRATION</a></li>
+
+<li><a href='sregister.html'>SUPPLIER_REGISTRATION</a></li>
+
+
+
+
+
+</ul>
+
+</li>
+<li><a href='#'>LOGIN</a>
+<ul>
+
+<li><a href='adminlogin.html'>ADMIN_LOGIN</a></li>
+
+
+<li><a href='supplier.html'>SUPPLIER_LOGIN</a></li>
+
+<li><a href='consumer.html'>CONSUMER_LOGIN</a></li>
+
+
+</ul>
+
+</li>
+
+<li><a href='profile.html'>PROFILE</a></li>
+<li><a href='items.html'>ITEM</a></li>
+
+<li><a href='welcome.html'>BACK</a></li>
+
+
+
+</ul>
+
+</div>
+
+ 
+
+</body>
+
+</html>
